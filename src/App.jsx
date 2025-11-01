@@ -4,7 +4,7 @@ import { io } from "socket.io-client";
 import Login from "./Login";
 
 // export const serverRoute = "http://localhost:8080";
-export const serverRoute = "https://abshrr-se-1duo.onrender.com";
+export const serverRoute = "https://abshrero-se.onrender.com";
 export const token = localStorage.getItem("token");
 export const socket = io(serverRoute);
 function App() {
